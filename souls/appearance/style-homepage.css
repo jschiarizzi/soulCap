@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+	font: 85%/1.2 Verdana, Arial, Helvetica, sans-serif;
+	background-color: black;
+
+	color: white;
+	text-align:center;
+}
+
+h1 { 
+
+font-size:80px;
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	margin-top: 0;	
+	padding-right: 15px;
+	padding-left: 15px; 
+}
+a img {
+	border: none;
+}
+
+a:link {
+	color: #42413C;
+	text-decoration: none; 
+}
+a:visited {
+	color: #6E6C64;
+	text-decoration: underline;
+}
+a:hover, a:active, a:focus { 
+	text-decoration: none;
+}
+
+
+
+.content {
+	
+background-color: black;
+	padding: 15px;
+	width:100%;
+	top:50%;
+	left:50%;
+	margin-top: 100px;
+	
+}
+
+.contentAbout {
+	
+background-color: black;
+	padding: 15px;
+	position:absolute;
+	top:100px;
+	left:27%;
+	text-align:left;
+	
+	
+}
+
+a.button {
+    
+    padding:25px;
+    text-decoration: none;
+    color: rgba(255,255,255, .75);
+	background-image:url(redButtonSprite.png);
+	background-size:280px, 128px;
+	background-position:-4px;
+	position:relative;
+	right:5px;
+	}
+
+a.button:hover {
+	color: rgba(255,215,0,1);
+	}
+
+a.button:active {
+		background-position:139px;
+		color: rgba(255,215,0,.75)
+}
+
+.aboutIcon {
+	position:absolute;
+	top:70%;
+	left:47%;
+	}
+	
+	.aboutIcon2 {
+	position:absolute;
+	top:98%;
+	left:45%;
+	text-align:center:!important;
+	
+	}
+a.aboutIcon {
+color:rgba(255,255,255,.75);
+
+}
+a.about:hover{
+	color:white;}
+	
+a.about {
+color:rgba(255,255,255,.75);
+
+}
+a.abouticon:hover{
+	color:white;}
+	
+	
+#soulStore {padding-right:33px;}
+
+#soulPlay {padding-right:39px;
+background-position:-3px;}
+
+#soulPlay:active {
+	background-position:140px;
+}
+	
+	.footer {
+   position: absolute;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: rgba(255,255,255, .75);
+   text-align: center;
+}
+
+#jeelizLogo {
+	position:relative;
+	top:8px;
+	left:1px;
+}
+	
