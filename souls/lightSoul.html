@@ -31,6 +31,17 @@
 
 
         <link rel="stylesheet" href="appearance/style.css" type="text/css" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-134184193-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-134184193-1');
+</script>
+
+        
     </head>
 
     <body onload="main()" style='color: white'>
@@ -41,13 +52,15 @@
         <a id="download" download="mySoul.png" href="" onclick="soul_img(this);" class="button">Capture Soul</a>
         </div>
         <br>
-        <div class="submitter">
+        <div class="submitter" style="width:450px;background-color:black;">
           <h2>Entomb Soul.</h2>
           <ol>
             <li>Capture soul.</li>
-            <li>Host your Soul anywhere. </li>
-            <li>Entomb your soul on Ethereum Blockchain forever</li>
+            <li>Host your Soul image anywhere. </li>
+            <li>Entomb your soul on Ethereum Blockchain forever.</li>
           </ol>
+          <p>.005 ETH to Entomb your soul into an erc-721 token. <br/> <strong><u>Discount to .0025 ETH if ZRX is in your wallet!</u></strong></p> 
+            <p>Souls are finite. <strong>Only 3 Souls can be minted per wallet.</strong> Entomb wisely.</p>
           <form class="minter"  >
               <label for="URI">URL to image</label>
               <input type="link" name="URI" placeholder="imgur.com/example or storj.io/decentralized-hash" size="35">
