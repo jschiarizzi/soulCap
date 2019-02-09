@@ -136,3 +136,8 @@ input, label{
   /*when the button is pressed make it go down from 15 to 8px*/
   box-shadow: 0px 8px 0px 0px #82409D;
 }
+
+.submitter{
+	position:absolute;
+	left:7px;
+}
